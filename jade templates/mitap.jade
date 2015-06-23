@@ -1,0 +1,19 @@
+//- Page variables
+- var pageTitle = "Mitap"
+- var bodyClass = "mitap"
+
+doctype html
+html(lang="en")
+  body(class="#{bodyClass}")
+    
+    include ./modules/main-header
+
+    include ./modules/product-header
+
+    include ./modules/mitap-cooking-image-wall
+    
+    
+    section.section
+      h1.title #{pageTitle}
+
+    include ./modules/footer

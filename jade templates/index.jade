@@ -1,0 +1,16 @@
+//- Page variables
+- var pageTitle = "Home"
+- var bodyClass = "home"
+
+doctype html
+html(lang="en")
+  include ./modules/head
+
+  body(class="#{bodyClass}")
+    include ./modules/main-header
+    
+    section.section
+      h1.title #{pageTitle}
+
+    include ./modules/footer
+    include ./modules/lightbox-contact

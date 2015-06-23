@@ -1,0 +1,68 @@
+
+//---------------------------------------------- Fonts
+	
+	// Heading font
+	$h-font:"helvetica", sans-serif;
+
+	// Copy font
+	$c-font:"helvetica", sans-serif;
+
+
+
+
+
+//---------------------------------------------- Colors
+	
+
+	// ---- General colors
+
+		// Dark green
+		$d-green: #273b38;
+
+		// Dark grey
+		$d-grey: #262626;
+
+		// Copy / text grey
+		$d-grey: #565656;
+		
+		// Lightest grey
+		$lightest-grey: #f5f5f5;
+
+
+
+	// ---- Individual brand colors
+
+		// Mitap green
+		$mitap-green:#82c7ba;
+
+
+
+
+	// ---- Buttons
+
+		// Light button
+		$cta-l:#0072bc;
+
+		// Dark button 
+		$cta-d:#0072bc;
+
+
+
+
+//---------------------------------------------- Extends
+
+	// ---- Layout
+
+		// Center align text
+		.center-text{
+			text-align:center;
+		}
+
+		// Center block
+		.center-block{
+			margin: 0 auto;
+		}
+
+
+
+
